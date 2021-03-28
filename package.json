@@ -1,0 +1,22 @@
+{
+  "name": "@drb/graphql",
+  "version": "0.0.1",
+  "description": "",
+  "main": "db.js",
+  "module": "main.js",
+  "scripts": {
+    "make": "make all",
+    "serve": "npm run make && json-graphql-server makedb.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25"
+  },
+  "devDependencies": {
+    "glob": "^7.1.6",
+    "json-graphql-server": "^2.2.0",
+    "markdown-to-json": "^0.5.4"
+  }
+}
